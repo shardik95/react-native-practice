@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30203054-d4b5-4887-b12a-245d512a78e4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elements/FixedHeader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elements/Icons.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elements/ListItems.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elements/TextHeadings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elements/QuestionPicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elements/QuestionTypeChooser.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elements/fixedHeader.js" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,8 +22,8 @@
       <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+            <state relative-caret-position="240">
+              <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -35,7 +31,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ListItems.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="QuestionTypeChooser.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/elements/QuestionTypeChooser.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QuestionPicker.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/elements/QuestionPicker.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ListItems.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/elements/ListItems.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
@@ -102,8 +119,11 @@
         <option value="$PROJECT_DIR$/elements/FixedHeader.js" />
         <option value="$PROJECT_DIR$/elements/TextHeadings.js" />
         <option value="$PROJECT_DIR$/elements/Icons.js" />
-        <option value="$PROJECT_DIR$/App.js" />
         <option value="$PROJECT_DIR$/elements/ListItems.js" />
+        <option value="$PROJECT_DIR$/elements/ButtonGroup.js" />
+        <option value="$PROJECT_DIR$/elements/QuestionTypeChooser.js" />
+        <option value="$PROJECT_DIR$/App.js" />
+        <option value="$PROJECT_DIR$/elements/QuestionPicker.js" />
       </list>
     </option>
   </component>
@@ -184,12 +204,12 @@
       <option name="presentableId" value="Default" />
       <updated>1527784770066</updated>
       <workItem from="1527784772751" duration="2586000" />
-      <workItem from="1527874395610" duration="5719000" />
+      <workItem from="1527874395610" duration="8947000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8305000" />
+    <option name="totallyTimeSpent" value="11533000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3" y="25" width="1040" height="813" extended-state="0" />
@@ -278,16 +298,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/elements/ListItems.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -295,6 +305,33 @@
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elements/QuestionTypeChooser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elements/QuestionPicker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
         </state>
       </provider>
     </entry>
