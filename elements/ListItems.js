@@ -17,7 +17,7 @@ export const ListItems = () => {
                 <ListItem
                     title={listitem.title}
                     subtitle={listitem.subtitle}
-                    icon={listitem.icon}
+                    leftIcon={{name:listitem.icon}}
                     key={index}
                 />
             ))}

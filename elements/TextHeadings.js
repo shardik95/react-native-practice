@@ -15,6 +15,5 @@ export const TextHeadings= () => (
             sed do eiusmod tempor incididunt
             ut labore et dolore magna aliqua.
         </Text>
-
     </View>
 )

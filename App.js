@@ -6,6 +6,7 @@ import {Icons} from "./elements/Icons";
 import {ListItems} from "./elements/ListItems";
 import QuestionTypeChooser from "./elements/QuestionTypeChooser";
 import QuestionPicker from "./elements/QuestionPicker";
+import TrueFalseQuestionEditor from "./elements/TrueFalseQuestionEditor";
 
 export default class App extends React.Component {
   render() {
@@ -13,6 +14,7 @@ export default class App extends React.Component {
         <ScrollView>
             <StatusBar barStyle="light-content"/>
             <FixedHeader/>
+            <TrueFalseQuestionEditor/>
             <QuestionTypeChooser/>
             <QuestionPicker/>
             <ListItems/>
